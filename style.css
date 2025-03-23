@@ -24,7 +24,7 @@ body {
 /* ==========================
    Definição dos Títulos
    ========================== */
-.titulo-destaque  {
+.negrito-destaque  {
     color:#0cc0df /* Define a cor do texto com um tom de azul claro (#0cc0df) */
 }
 
@@ -70,18 +70,27 @@ body {
 
 .apresentacao__links {
     display: flex; /* Define o display como flexível */
+    flex-direction: column;
     justify-content: space-between; /* Justifica o conteúdo no centro */
+    align-items: center; /* Alinha os itens no centro */
+    gap: 20px
+}
+
+.apresentacao_link_subtitulo {
+    font-family: "Funnel Sans", sans-serif; /* Define a fonte Funnel Sans como padrão */
+    font-optical-sizing: auto; /* Define o tamanho da fonte como automático */
+    font-weight: <weight>; /* Define o peso da fonte */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: 16px; /* Define o tamanho da fonte como 1rem */
 }
 
 .apresentacao__links__link{ /* Define o estilo dos links */
-   background-color: #d838f2; /* Define a cor de fundo como rosa (#d838f2) */
    color: white; /* Define a cor do texto como branca */
    text-decoration: none; /* Remove a decoração do link */ 
    text-align: center; /* Alinha o texto no centro */
    font-size: 14px; /*  Define o tamanho da fonte como 1rem */
    width: 128px; /* Define a largura como 128px */
+   border: 1px solid #D838F2; /* Define a borda com 1px de espessura e cor branca */
    border-radius: 6px; /*   Define o raio da borda como 8px */
    padding: 6px 0; /* Define o espaçamento interno como 8px no topo e na base e 0 nas laterais */
 }
-
-
