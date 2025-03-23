@@ -4,10 +4,15 @@
         <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8, para suportar caracteres especiais -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <title>LearningChess</title> <!-- Define o título da página que aparece na aba do navegador -->
-        <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS (style.css) para estilizar a página -->
+        <link rel="stylesheet" href="../css/style.css"> <!-- Conecta o arquivo CSS (style.css) para estilizar a página -->
       </head>
     <body>
-      <header></header> <!-- Cabeçalho da página, geralmente contém o logo ou o menu de navegação -->
+      <header class="apresentacao_cabecalho"> <!-- Cabeçalho da página, geralmente contém o logo ou o menu de navegação -->
+        <nav class="cabecalho_menu"> <!-- Navegação do site, geralmente contém links para outras páginas -->
+          <a class="cabecalho_menu_link">Home</a>
+          <a class="cabecalho_menu_link">Sobre nós</a>
+        </nav>
+      </header> <!-- Cabeçalho da página, geralmente contém o logo ou o menu de navegação -->
       <main class="apresentacao"> <!-- Conteúdo principal da página, geralmente contém o texto e as imagens -->
         <section class="apresentacao__conteudo"> <!-- Seção do conteúdo, pode ser usada para dividir o conteúdo em partes -->
           <p class="sub-titulo"><strong>LearningChess</strong></p>
@@ -16,19 +21,21 @@
           <div class="apresentacao__links"><!-- Divisão do conteúdo, pode ser usada para organizar o conteúdo em seções -->
             <h2 class="apresentacao_link_subtitulo">Acesse minhas redes:</h2>
             <a class="apresentacao__links__link" href="https://www.instagram.com.br">
-              <img src="./assets/instagram.png" alt="Ícone do Instagram"> <!-- Ícone do Instagram com descrição alternativa e tamanho definido -->
+              <img src="../../assets/images/redes_sociais/instagram.png" alt="Ícone do Instagram"> <!-- Ícone do Instagram com descrição alternativa e tamanho definido -->
               Instragram</a><!-- Link para Instagram -->
             <a class="apresentacao__links__link" href="http://github.com/">
-              <img src="./assets/github.png" alt="Logotipo do GitHub, um ícone de um gato Octocat dentro de um círculo">
+              <img src="../../assets/images/redes_sociais/github.png" alt="Logotipo do GitHub, um ícone de um gato Octocat dentro de um círculo">
               Github
             </a> <!-- Link para Github.com -->
           </div>
       </section>
       <section> <!-- Seção da imagem, pode ser usada para adicionar imagens ao conteúdo -->
-        <img src="./assets/logo.png" alt="Uma logo de xadrez composta por três peças: um peão, um cavalo e um rei. O peão simboliza estratégia e crescimento, o cavalo representa jogadas inesperadas e criatividade, e o rei é o objetivo central do jogo. As peças estão organizadas de forma equilibrada, transmitindo uma identidade forte e estratégica." width="176" height="146"> <!-- Imagem da logo com descrição alternativa e tamanho definido -->
+        <img src="../../assets/images/interface/logo.png" alt="Uma logo de xadrez composta por três peças: um peão, um cavalo e um rei. O peão simboliza estratégia e crescimento, o cavalo representa jogadas inesperadas e criatividade, e o rei é o objetivo central do jogo. As peças estão organizadas de forma equilibrada, transmitindo uma identidade forte e estratégica." width="176" height="146"> <!-- Imagem da logo com descrição alternativa e tamanho definido -->
         </section>
       </main>
-      <footer></footer> <!-- Rodapé da página, geralmente contém informações como direitos autorais ou links adicionais -->
+      <footer class="apresentacao_rodape"> <!-- Rodapé da página, geralmente contém informações como direitos autorais ou links adicionais -->
+        <p>© 2025 | LearningChess. Todos os direitos reservados.</p> <!-- Texto de direitos autorais -->
+      </footer> <!-- Rodapé da página, geralmente contém informações como direitos autorais ou links adicionais -->
     </body>
 </html>
 
