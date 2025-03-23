@@ -89,7 +89,11 @@ body {
    text-decoration: none; /* Remove a decoração do link */ 
    text-align: center; /* Alinha o texto no centro */
    font-size: 14px; /*  Define o tamanho da fonte como 1rem */
-   width: 128px; /* Define a largura como 128px */
+   display: flex; /* Define o display como flexível */
+   justify-content: center; /* Justifica o conteúdo no centro */
+   gap: 12px; /* Define o espaçamento entre os elementos como 16px */
+   align-items: center; /* Alinha os itens no centro */
+   width: 168px; /* Define a largura como 128px */
    border: 1px solid #D838F2; /* Define a borda com 1px de espessura e cor branca */
    border-radius: 6px; /*   Define o raio da borda como 8px */
    padding: 6px 0; /* Define o espaçamento interno como 8px no topo e na base e 0 nas laterais */
