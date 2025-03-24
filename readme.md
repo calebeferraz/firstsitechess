@@ -23,13 +23,13 @@ Algumas partes do código contêm comentários /* e foram mantidas apenas para q
 
 ## Demonstração do Projeto
 
-![Demonstração da Página Inicial](assets/images/demo/index_demo.png){:height="300px" width="400px"}
-![Demonstração da Página Inicial](assets/images/demo/index_hover_demo.png){:height="300px" width="400px"}
-![Demonstração da Página Sobre](assets/images/demo/about_demo.png){:height="300px" width="400px"}
+![Demonstração da Página Inicial](assets/images/demo/index_demo.png)
+![Demonstração da Página Inicial](assets/images/demo/index_hover_demo.png)
+![Demonstração da Página Sobre](assets/images/demo/about_demo.png)
 
 ## Demonstração da Construção do Design com a Tecnologia do Figma
 
-![Demonstração da Página Sobre](assets/images/demo/learningchess_figma_demo){:height="300px" width="400px"}
+![Demonstração do Projeto no Figma](assets/images/demo/learningchess_figma_demo.png)
 
 ## Como Contribuir
 
