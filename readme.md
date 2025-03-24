@@ -1,4 +1,4 @@
-# First Site Chess
+# LearningChess
 
 Bem-vindo ao repositório do meu primeiro site de xadrez! Este projeto é uma introdução ao desenvolvimento web e serve como um ponto de partida para meus futuros projetos.
 
