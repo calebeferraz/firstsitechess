@@ -1,0 +1,144 @@
+/* ==========================
+    Importação de Fontes
+    ========================== */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ==========================
+    Definição de Variáveis
+    ========================== */
+:root {
+     /* Cores */
+     --cor-primaria: #191919; /* Define a cor primária como preta (#191919) */
+     --cor-secundaria: #FFFFFF; /* Define a cor secundária como branca (#FFFFFF) */
+     --cor-terciaria: #d838f2; /* Define a cor terciária como rosa (#d838f2) */
+     --cor-negrito: #0cc0df; /* Define a cor quaternária como azul claro (#0cc0df) */
+     --cor-hover: #D838F2; /* Define a cor de hover como rosa (#D838F2) */
+
+     /* Fontes */
+     --fonte-primaria: normal 400 16px/1.3 "Funnel Sans", sans-serif; /* Define a fonte primária como Funnel Sans */
+     --fonte-secundaria: normal 400 14px/1.3 "Funnel Sans", sans-serif; /* Define a fonte secundária como Funnel Sans */
+}
+
+/* ==========================
+    Reset e Configurações Globais
+    ========================== */
+* {
+     margin: 0; /* Remove margens padrão */
+     padding: 0; /* Remove espaçamentos padrão */
+}
+
+/* ==========================
+    Configurações do Body
+    ========================== */
+body {
+     box-sizing: border-box; /* Garante que largura e altura incluam padding e borda */
+     background-color: var(--cor-primaria); /* Cor de fundo preta */
+     color: var(--cor-secundaria); /* Define a cor do texto como branca */
+}
+
+/* ==========================
+    Definição dos Títulos
+    ========================== */
+.negrito-destaque {
+     color: var(--cor-negrito); /* Define a cor do texto com um tom de azul claro (#0cc0df) */
+}
+
+.sub-titulo {
+     color: var(--cor-terciaria); /* Define a cor do texto com um tom de rosa (#d838f2) */
+}
+
+/* ==========================
+    Configurações do Container / Flexbox
+    ========================== */
+.apresentacao {
+     padding: 5% 30%; /* Define o espaçamento interno como 5% no topo e na base e 30% nas laterais */
+     display: flex; /* Define o display como flexível */
+     align-items: center; /* Alinha os itens no centro */
+     justify-content: space-between; /* Justifica o conteúdo no centro */
+     font: var(--fonte-primaria); /* Define a fonte Funnel Sans como padrão */
+}
+
+/* ==========================
+    Configurações do Conteúdo
+    ========================== */
+.apresentacao__conteudo_index {
+     width: 328px; /* Define a largura do conteúdo como 328px */
+     display: flex; /* Define o display como flexível */
+     flex-direction: column; /* Define a direção da coluna */
+     gap: 15px; /* Define o espaçamento entre os elementos como 15px */
+}
+
+.apresentacao__conteudo_about {
+     width: 328px; /* Define a largura do conteúdo como 328px */
+     display: flex; /* Define o display como flexível */
+     flex-direction: column; /* Define a direção da coluna */
+     gap: 32px; /* Define o espaçamento entre os elementos como 32px */
+}
+
+.apresentacao__conteudo__titulo {
+     font-size: 44px; /* Define o tamanho da fonte como 44px */
+}
+
+.apresentacao__conteudo__paragrafo {
+     font: var(--fonte-secundaria); /* Define a fonte Funnel Sans como padrão */
+}
+
+.apresentacao__links {
+     display: flex; /* Define o display como flexível */
+     flex-direction: column; /* Define a direção da coluna */
+     justify-content: space-between; /* Justifica o conteúdo no centro */
+     align-items: center; /* Alinha os itens no centro */
+     gap: 20px; /* Define o espaçamento entre os elementos como 20px */
+}
+
+.apresentacao_link_subtitulo {
+     font: var(--fonte-primaria); /* Define a fonte Funnel Sans como padrão */
+}
+
+.apresentacao__links__link { /* Define o estilo dos links */
+     color: var(--cor-secundaria); /* Define a cor do texto como branca */
+     text-decoration: none; /* Remove a decoração do link */
+     text-align: center; /* Alinha o texto no centro */
+     font-size: 14px; /* Define o tamanho da fonte como 14px */
+     display: flex; /* Define o display como flexível */
+     justify-content: center; /* Justifica o conteúdo no centro */
+     gap: 12px; /* Define o espaçamento entre os elementos como 12px */
+     align-items: center; /* Alinha os itens no centro */
+     width: 168px; /* Define a largura como 168px */
+     border: 1px solid var(--cor-terciaria); /* Define a borda com 1px de espessura e cor rosa */
+     border-radius: 6px; /* Define o raio da borda como 6px */
+     padding: 6px 0; /* Define o espaçamento interno como 6px no topo e na base e 0 nas laterais */
+}
+
+.apresentacao__links__link:hover { /* Define o estilo dos links ao passar o mouse */
+     background-color: var(--cor-hover); /* Define a cor de fundo como rosa (#D838F2) */
+     color: var(--cor-secundaria); /* Define a cor do texto como branca */
+}
+
+.cabecalho_menu_link:hover { /* Define o estilo dos links ao passar o mouse */
+     color: var(--cor-hover); /* Define a cor do texto como rosa (#D838F2) */
+}
+
+.apresentacao_rodape { /* Define o estilo do rodapé */
+     padding: 14px; /* Define o espaçamento interno como 14px */
+     background-color: var(--cor-terciaria); /* Define a cor de fundo como rosa (#D838F2) */
+     color: var(--cor-secundaria); /* Define a cor do texto como branca */
+     text-align: center; /* Alinha o texto no centro */
+     font: var(--fonte-primaria); /* Define a fonte Funnel Sans como padrão */
+     font-size: 16px; /* Define o tamanho da fonte como 16px */
+}
+
+.apresentacao_cabecalho { /* Define o estilo do cabeçalho */
+     padding: 2% 0% 0% 30%; /* Define o espaçamento interno como 2% no topo, 0% na base e 30% nas laterais */
+}
+
+.cabecalho_menu { /* Define o estilo do menu do cabeçalho */
+     display: flex; /* Define o display como flexível */
+     gap: 18px; /* Define o espaçamento entre os elementos como 18px */
+}
+
+.cabecalho_menu_link { /* Define o estilo dos links do menu do cabeçalho */
+     font: var(--fonte-primaria); /* Define a fonte Funnel Sans como padrão */
+     color: var(--cor-secundaria); /* Define a cor do texto como branca */
+     text-decoration: none; /* Remove a decoração do link */
+}
