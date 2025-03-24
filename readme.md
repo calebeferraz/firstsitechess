@@ -4,7 +4,13 @@ Bem-vindo ao repositório do meu primeiro site de xadrez! Este projeto é uma in
 
 ## Descrição do Projeto
 
-Este site foi criado com o objetivo de apresentar uma interface simples para uma plataforma de site de xadrez online. 
+Este site foi criado com o objetivo de estudar os seguintes temas (respectivos cursos):
+
+1.HTML e CSS ambientes de desenvolvimento, estruturas e boas práticas
+2.HTML e CSS - Classes, posicionamento e Flexbox
+3.HTML e CSS  - cabeçalho, footer e variáveis CSS
+
+Em vista disso, buscou-se apresentar uma interface simples para um projeto de plataforma de site de xadrez online. 
 
 ## Tecnologias Utilizadas
 
